@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200;500&family=Josefin+Sans:ital,wght@0,500;1,500&family=Libre+Baskerville:wght@700&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@500&family=Raleway&family=Ubuntu&display=swap');
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.brand-name{
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.nav-bar>a{
+    font-weight: 600;
+        color: black;
+        text-decoration: none;
+        padding-left: 20px;
+        font-size: 0.8em;
+}
+.nav-bar>i{
+    padding-left: 20px;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5%;
+    
+}
+.top-banner{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 6%;
+
+}
+.half-width h1{
+    font-size: 2.7em;
+}
+button{
+    padding: 7px 12px;
+    border-radius: 30px;
+    font-size: 300;
+    border: none;
+    background-color: rgb(249, 40, 113);
+    color: white;
+}
+button>i{
+    color: white;
+}
+.half-width img{
+    width: 80%;
+    border: 3px solid rgba(128, 128, 128, 0.178);
+    border-radius: 50%;
+    padding: 5%;
+}
+.sponsored{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    border-top: 1px solid rgba(128, 128, 128, 0.461);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.461);
+}
+.sponsored img{
+    width: 6%;
+    padding: 2%;
+}
+
+.rating{
+    color: gold;
+}
+.card{
+    box-shadow: 10px 10px 30px gray;
+    
+}
+.card img{
+    width: 20%;
+}
+
